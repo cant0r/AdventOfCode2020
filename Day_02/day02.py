@@ -39,6 +39,7 @@ def second_part():
                 if i == max and c == key_char:
                     if found:
                         found = False
+                        break
                     else:
                         found = True
             if found:
